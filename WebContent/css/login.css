@@ -1,0 +1,115 @@
+/*** 主体 ***/
+html,
+body
+{
+    height: 100%;
+}
+main
+{
+    width: 100%;
+    height: 95%;
+}
+#loginH1
+{
+    font-size: 48px;
+    font-weight: normal;
+
+    padding: 60px;
+
+    text-align: center;
+}
+form
+{
+    width: 30%;
+    margin: auto;
+
+    text-align: center;
+
+    color: white;
+}
+.inputbox
+{
+    display: block;
+
+    margin: 10px;
+    padding: 15px;
+
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: #222224;
+}
+input, textarea
+{
+    width: 91%;
+}
+.radio
+{
+    margin: 10px;
+    padding: 15px;
+
+    text-align: left;
+
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: #222224;
+}
+.radio input
+{
+    width: auto;
+    margin: auto 1em;
+}
+.birthday
+{
+    margin: 10px;
+    padding: 15px;
+
+    text-align: left;
+
+    background-color: #222224;
+}
+.selectbox
+{
+    margin: auto 1em;
+
+    color: #fff;
+    border: none;
+    outline: none;
+    background-color: #222224;
+}
+.job > select
+{
+    width: 96%;
+}
+/* 设置placeholder颜色 */
+:-moz-placeholder
+{
+    /* Mozilla Firefox 4 to 18 */
+    color: #fff;
+}
+
+::-moz-placeholder
+{
+    /* Mozilla Firefox 19+ */
+    color: #fff;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder
+{
+    color: #fff;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder
+{
+    color: #fff;
+}
+
+#submit,
+#reset
+{
+    width: 96%;
+}

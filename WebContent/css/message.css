@@ -1,0 +1,101 @@
+/*** 主体 ***/
+html,
+body
+{
+    height: 100%;
+}
+header
+{
+    position: fixed;
+
+    width: 100%;
+    height: 100px;
+
+    background-color: #ffc151;
+}
+header > div
+{
+    display: inline;
+    float: left;
+    font-weight:normal;
+}
+header .title a{
+	font-weight:normal;
+	font-size:48px;
+	color:#000
+}
+header img
+{
+    width: 100px;
+    height: 100px;
+}
+header input
+{
+    font-size: 24px;
+    margin: 35px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    background-color: #5E97F6;
+}
+.title{
+	margin-left: 35%;
+	margin-top:15px;
+}
+.info{
+	position: absolute;
+	right: 105px;
+	color:#5E97F6;
+}
+.info>span{
+	position: absolute;
+	right: 0px;
+	bottom: 15px;
+	font-weight: bold;
+}
+.exit{
+	position: absolute;
+	right: 20px;
+}
+main
+{
+    position: absolute;
+    top: 100px;
+
+    width: 100%;
+    height: 90%;/*写给不支持calc()的浏览器*/
+    height:    -moz-calc(95% - 110px);
+    height: -webkit-calc(95% - 110px);
+    height:         calc(95% - 110px);
+    /*margin:20px auto;*/
+    border-top: solid 5px #5E97F6;
+    border-bottom: solid 5px #5E97F6;
+}
+.message
+{
+    width: 100%;
+}
+.list
+{
+    position: absolute;
+
+    width: 100%;
+}
+table,tr{
+	border-collapse: collapse;/* 边框合并属性  */
+	border:solid 2px #ffc151;
+	text-align: center;
+}
+th,td{
+	border-collapse: collapse;/* 边框合并属性  */
+	border:solid 2px #ffc151;
+	width: 80px;
+}
+/*** 底部 ***/
+footer
+{
+	position: absolute;
+	top:95%;
+}
+

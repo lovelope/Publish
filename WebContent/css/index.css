@@ -1,0 +1,29 @@
+html,
+body
+{
+    height: 100%;
+}
+main
+{
+    width: 100%;
+    height: 95%;
+}
+main>h1
+{
+    font-size: 48px;
+    font-weight: normal;
+
+    padding: 60px;
+
+    text-align: center;
+}
+main>ul{
+	text-align:center;
+	list-style-type: none;
+}
+main>ul>li
+{
+	display:inline;
+	padding:20px;
+	background-color:#9cf;
+}
