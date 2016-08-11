@@ -38,7 +38,8 @@
 %>		
 		<p style="text-align:center; font-size:24px; color:red;">警告！！！<br />删除个人信息后数据库中将不再保存您的所有信息！！！<br />您之前的留言也将被一并删除！！！</p>
 		<form action="<%= request.getContextPath()%>/DelAllServlet" method="post">
-			<textarea rows="9" cols="56" name="delReanson" class="inputbox" placeholder="请输入您要删除信息的原因" /></textarea>
+			<input type="hidden" name="stuNo" value="<%=stuNo %>">
+			<textarea rows="9" cols="56" name="delReason" class="inputbox" placeholder="请输入您要删除信息的原因" /></textarea>
 			<div>
 				<input type="submit" id="submit" class="button " value="删除" onclick="return confirm('确定要删除吗？');"/>
 				<input type="reset" id="reset" class="button " value="重置" />

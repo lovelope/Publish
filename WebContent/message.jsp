@@ -93,7 +93,11 @@
 	<td><%=rs.getString("stuNo") %></td>
 	<td><%=rs.getString("title")%></td>
 	<td><%=rs.getString("content")%></td>
-	<td><%=rs.getString("time")%></td>
+<%
+	String timeString = rs.getString("time");
+	String timeFormat = timeString.substring(0, timeString.length()-2);
+%>
+	<td><%=timeFormat %></td>
 </tr>
 <%
 	}
